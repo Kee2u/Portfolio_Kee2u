@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Roboto:300,400,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/app.css" rel="stylesheet" />
+    <title>Keerthana Jayakumar | Portfolio</title>
+</head>
+
+<body>
+
+    <!-- No defined header section -->
+
+    <!-- Main content goes here split into sections/fragments -->
+    <main>
+
+        <!-- Utilizes flexbox styling not taught in class -->
+        <section class="fragment fragment-one">
+            <div class="headers">
+                <h1> keetu. </h1>
+                <h3> data analyst | software developer</h3>
+            </div>
+
+            <div class="learn">
+
+                <!-- You could hyperlink this down with a smooth scroll -->
+                <a href="#Click_to_learn_more" style = "color: rgb(21, 85, 50)">
+                    <p><strong>learn more</strong></p>
+                    <i class="fas fa-chevron-down" style = "color: rgb(21, 85, 50)"></i>
+                </a>
+            </div>
+
+        </section>
+        <section class="fragment fragment-two">
+            <a id="Click_to_learn_more">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+
+                            <!-- Edit this text with a brief intoduction / brand statement etc. -->
+                            <h4>
+                                Keerthana (Keetu) is a Mechatronics Engineer and Data Analyst with strong math and statistics skills. 
+                                She has a background in Python, SQL, VBA, Javascript and Machine Learning from the University of Toronto's Data Analytics Bootcamp. 
+                                
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <div class="learn">
+                <!-- You could hyperlink this down with a smooth scroll -->
+                <a href="#Click_for_projects" style = "color: rgb(21, 85, 50)">
+                <p>click for projects </p>
+                <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+
+        </section>
+        <section class="fragment fragment-three">
+            <a id="Click_for_projects">
+            <h3>Things I've Made</h3>
+            <hr class="title-underline">
+            <div class="container carousel-container">
+
+                <!-- begin carousel -->
+                <!-- you should replace the placeholder images with actual images from your projects -->
+                <!-- images should be 800*600 or a matching ratio for best results -->
+                <div id="portfolioCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#portfolioCarousel" data-slide-to="0" class="active custom-indicator">
+                        </li>
+                        <li data-target="#portfolioCarousel" data-slide-to="1" class="custom-indicator"></li>
+                        <li data-target="#portfolioCarousel" data-slide-to="2" class="custom-indicator"></li>
+                        <li data-target="#portfolioCarousel" data-slide-to="3" class="custom-indicator"></li>
+                        <li data-target="#portfolioCarousel" data-slide-to="4" class="custom-indicator"></li>
+                        <li data-target="#portfolioCarousel" data-slide-to="5" class="custom-indicator"></li>
+                        <li data-target="#portfolioCarousel" data-slide-to="6" class="custom-indicator"></li>
+                        <li data-target="#portfolioCarousel" data-slide-to="7" class="custom-indicator"></li>
+                        <li data-target="#portfolioCarousel" data-slide-to="8" class="custom-indicator"></li>
+                        <li data-target="#portfolioCarousel" data-slide-to="9" class="custom-indicator"></li>
+                        <li data-target="#portfolioCarousel" data-slide-to="10" class="custom-indicator"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+
+                            <!--image here -->
+                            <img src="assets/images/mars1.jpg" class="img-fluid" alt="Responsive image">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4>Mission to Mars</h4>
+                                <p>Collected information on Mars from four websites using web scraping tools. Used chrome developer tools to read HTML, Beautiful Soup and Splinter to automate the scrape, Mongo to store the data and Flask to display the scraped content.</p>
+                                <a class="btn btn-primary" href = "https://github.com/Kee2u/Mission-to-Mars" role = "button">View Code</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+
+                            <!--image here -->
+                            <img src="assets/images/UFO1.png" class="img-fluid" alt="Responsive image">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4>UFO data</h4>
+                                <p>Used Javascript, HTML and CSS to create a webpage displaying UFO data in a table. The table can be filtered by multiple fields.</p>
+                                <a class="btn btn-primary" href = "https://github.com/Kee2u/UFOs" role = "button">View Code</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+
+                            <!--image here -->
+                            <img src="assets/images/WM.png" class="img-fluid" alt="Responsive image">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4>World Weather Analysis</h4>
+                                <p>Created an app using Google maps and Open Weather Map APIS. Can be used to recommend hotels based on traveller's weather preferences.</p>
+                                <a class="btn btn-primary" href = "https://github.com/Kee2u/World_Weather_Analysis" role = "button">View Code</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+
+                            <!--image here -->
+                            <img src="assets/images/Surfs_up1.png" class="img-fluid" alt="Responsive image">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4>Surfs Up</h4>
+                                <p>Used Pandas and SQLite to study temperature and precipitation data in Oahu. Results from data analysis used to decide if opening a Surf Shop in the location is feasible.</p>
+                                <a class="btn btn-primary" href = "https://github.com/Kee2u/Surfs_Up" role = "button">View Code</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+
+                            <!--image here -->
+                            <img src="assets/images/Movies_ETL1.png" class="img-fluid" alt="Responsive image">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4>Movies ETL</h4>
+                                <p>Scraped movie data from Wikipedia, Kaggle and MovieLens. Created a data pipeline to clean the data using ETL and Pandas with Jupyter Notebooks. Uploaded the cleaned data to SQL tables for further analysis.</p>
+                                <a class="btn btn-primary" href = "https://github.com/Kee2u/Movies-ETL" role = "button">View Code</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+
+                            <!--image here -->
+                            <img src="assets/images/DB1.png" class="img-fluid" alt="Responsive image">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4>Employee Database</h4>
+                                <p>Used PostgreSQL and PGAdmin4 to determine the impact of retiring employees on a fictional company.</p>
+                                <a class="btn btn-primary" href = "https://github.com/Kee2u/Pewlett-Hackard-Analysis" role = "button">View Code</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+
+                            <!--image here -->
+                            <img src="assets/images/pyber.png" class="img-fluid" alt="Responsive image">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4>Pyber Analysis</h4>
+                                <p>Used Python, Jupyter Notebooks and MatPlotLib to perform exploratory data analysis on ride sharing data from CSV files and to create graphs and charts to gain data driven insights.</p>
+                                <a class="btn btn-primary" href = "https://github.com/Kee2u/PyBer_Analysis" role = "button">View Code</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+
+                            <!--image here -->
+                            <img src="assets/images/s1.png" class="img-fluid" alt="Responsive image">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4>School District Analysis</h4>
+                                <p>Used python on Jupyter notebooks to analyze test scores.</p>
+                                <a class="btn btn-primary" href = "https://github.com/Kee2u/School_District_Analysis" role = "button">View Code</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+
+                            <!--image here -->
+                            <img src="assets/images/pol1.png" class="img-fluid" alt="Responsive image">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4>Election Analysis</h4>
+                                <p>Used Python to assist a Colorado board of elections by calculating election poll results and county with highest voter turnout.</p>
+                                <a class="btn btn-primary" href = "https://github.com/Kee2u/Election_Analysis" role = "button">View Code</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+
+                            <!--image here -->
+                            <img src="assets/images/stock.png" class="img-fluid" alt="Responsive image">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4>Stock Analysis</h4>
+                                <p>Wrote VBA script to analyze stocks based on yearly returns and trading volume.</p>
+                                <a class="btn btn-primary" href = "https://github.com/Kee2u/Stock-Analysis" role = "button">View Code</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+
+                            <!--image here -->
+                            <img src="assets/images/excel.png" class="img-fluid" alt="Responsive image">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4>Kickstarter Analysis</h4>
+                                <p>Excel analysis on kickstarter data to discover trends.</p>
+                                <a class="btn btn-primary" href = "https://github.com/Kee2u/Kickstarter-Analysis" role = "button">View Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            </a>
+
+        </section>
+        <section class="fragment fragment-four">
+
+            <h3>Technology I Use</h3>
+            <hr class="title-underline">
+            <div class="container">
+                <div class="labels">
+                    <div class="tech">Python</div>
+                    <div class="tech">C / C++</div>
+                    <div class="tech">SQL</div>
+                    <div class="tech">JavaScript</div>
+                    <div class="tech">HTML/CSS</div>
+                    <div class="tech">VBA</div>
+                    <div class="tech">Matlab</div>
+                </div>
+            </div>
+
+        </section>
+        <section class="fragment fragment-five">
+            <h3>My Education</h3>
+            <hr class="title-underline">
+
+            <!-- Don't forget to swap out the universities and education to match your own-->
+            <div class="container">
+                <h5> University of Toronto</h5>
+                <p class="credential"> Data Analytics Bootcamp | 2021</p>
+                <h5> University of Toronto</h5>
+                <p class="credential"> B.A. Applied Science and Engineering | 2013 - 2018</p>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="fragment fragment-six">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h6>keerthana jayakumar</h6>
+
+                        <!--update these links to match your own social media profiles -->
+                        <a href="https://www.instagram.com/artbykeetu/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/keerthanajayakumar/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Kee2u" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="mailto:<keetu.jk@gmail.com>" class="social-icon"><i class="fas fa-envelope"></i></a>
+                        <p class="text-muted copyright">Keerthana Jayakumar &copy; 2021 - 2022 </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
