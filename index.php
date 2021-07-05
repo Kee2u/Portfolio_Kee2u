@@ -34,7 +34,7 @@
             <section class="fragment fragment-one">
                 <div class="headers">
                     <h1> keetu. </h1>
-                    <h3> data scientist | data engineer | software developer</h3>
+                    <h3> data analyst | data engineer | software developer</h3>
                 </div>
 
                 <div class="learn">
