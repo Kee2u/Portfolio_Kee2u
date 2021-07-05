@@ -19,7 +19,7 @@
 
     <!-- Custom styles for this template -->
     <link href="assets/css/app.css" rel="stylesheet" />
-    <title>Keerthana Jayakumar | Portfolio</title>
+    <title>Keetu | Portfolio</title>
 </head>
 
 <body>
