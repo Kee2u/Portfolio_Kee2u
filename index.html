@@ -30,21 +30,22 @@
     <main>
 
         <!-- Utilizes flexbox styling not taught in class -->
-        <section class="fragment fragment-one">
-            <div class="headers">
-                <h1> keetu. </h1>
-                <h3> data analyst | software developer</h3>
-            </div>
+        <section id="trunk-vanta">
+            <section class="fragment fragment-one">
+                <div class="headers">
+                    <h1> keetu. </h1>
+                    <h3> data scientist | data engineer | software developer</h3>
+                </div>
 
-            <div class="learn">
+                <div class="learn">
 
-                <!-- You could hyperlink this down with a smooth scroll -->
-                <a href="#Click_to_learn_more" style = "color: rgb(21, 85, 50)">
-                    <p><strong>learn more</strong></p>
-                    <i class="fas fa-chevron-down" style = "color: rgb(21, 85, 50)"></i>
-                </a>
-            </div>
-
+                    <!-- You could hyperlink this down with a smooth scroll -->
+                    <a href="#Click_to_learn_more" style = "color: rgb(194, 194, 194)">
+                        <p><strong>learn more</strong></p>
+                        <i class="fas fa-chevron-down" style = "color: rgb(194, 194, 194)"></i>
+                    </a>
+                </div>
+            </section>
         </section>
         <section class="fragment fragment-two">
             <a id="Click_to_learn_more">
@@ -72,6 +73,30 @@
             </div>
 
         </section>
+        <section class="fragment fragment-two-point-five">
+            <a id="featured_project">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+
+                            <!-- Edit this text with a brief intoduction / brand statement etc. -->
+                            <h3>
+                                FEATURED PROJECT                           
+                            </h3>
+                            <h4>
+                                Deciphering the Indus script using Natural Language Processing, Machine Learning, ETL and Statistical Analysis                           
+                            </h4>
+                            <a class="btn btn-primary" href = " https://deciphering-indus-script.herokuapp.com/" role = "button">Click for website</a>
+                            <a class="btn btn-primary" href = " https://github.com/Kee2u/Deciphering_the_Indus_Valley_Script" role = "button">Click for Github</a>
+                        </div>
+                        <div class="col-md-7">
+                            <img src="assets/images/Unicorn3.jpg" class="img-fluid" alt="Responsive image">
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+        </section>
         <section class="fragment fragment-three">
             <a id="Click_for_projects">
             <h3>Things I've Made</h3>
@@ -95,9 +120,34 @@
                         <li data-target="#portfolioCarousel" data-slide-to="8" class="custom-indicator"></li>
                         <li data-target="#portfolioCarousel" data-slide-to="9" class="custom-indicator"></li>
                         <li data-target="#portfolioCarousel" data-slide-to="10" class="custom-indicator"></li>
+                        <li data-target="#portfolioCarousel" data-slide-to="11" class="custom-indicator"></li>
+                        <li data-target="#portfolioCarousel" data-slide-to="12" class="custom-indicator"></li>
+                        <li data-target="#portfolioCarousel" data-slide-to="13" class="custom-indicator"></li>
+
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
+                            
+
+                            <!--image here -->
+                            <img src="assets/images/earth.png" class="img-fluid" alt="Responsive image">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4>Mapping Earthquakes</h4>
+                                <p>Created an interactive map using javascript, leaflet, D3 library and Mapbox.</p>
+                                <a class="btn btn-primary" href = "https://github.com/Kee2u/Mapping_Earthquakes" role = "button">View Code</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+
+                            <!--image here -->
+                            <img src="assets/images/plotly.png" class="img-fluid" alt="Responsive image">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4>Plotly Diversity</h4>
+                                <p>Used Javascript, plotly, html and bootstrap to create a dynamic web visualization dashboard.</p>
+                                <a class="btn btn-primary" href = "https://github.com/Kee2u/Election_Analysis" role = "button">View Code</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
 
                             <!--image here -->
                             <img src="assets/images/mars1.jpg" class="img-fluid" alt="Responsive image">
@@ -110,11 +160,21 @@
                         <div class="carousel-item">
 
                             <!--image here -->
-                            <img src="assets/images/UFO1.png" class="img-fluid" alt="Responsive image">
+                            <img src="assets/images/top-cryptocurrencies.png" class="img-fluid" alt="Responsive image">
                             <div class="carousel-caption d-none d-md-block">
-                                <h4>UFO data</h4>
-                                <p>Used Javascript, HTML and CSS to create a webpage displaying UFO data in a table. The table can be filtered by multiple fields.</p>
-                                <a class="btn btn-primary" href = "https://github.com/Kee2u/UFOs" role = "button">View Code</a>
+                                <h4>Cryptocurrencies</h4>
+                                <p>Using unsupervised methods namely Sklearn's standardization functions, PCA and K means algorithm to create a cryptocurrency investment portfolio.</p>
+                                <a class="btn btn-primary" href = "https://github.com/Kee2u/Cryptocurrencies" role = "button">View Code</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+
+                            <!--image here -->
+                            <img src="assets/images/tableau.png" class="img-fluid" alt="Responsive image">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4>Bikesharing</h4>
+                                <p>Using Tableau to create visualizations of New York ridesharing data.</p>
+                                <a class="btn btn-primary" href = "https://github.com/Kee2u/bikesharing" role = "button">View Code</a>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -160,16 +220,6 @@
                         <div class="carousel-item">
 
                             <!--image here -->
-                            <img src="assets/images/pyber.png" class="img-fluid" alt="Responsive image">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h4>Pyber Analysis</h4>
-                                <p>Used Python, Jupyter Notebooks and MatPlotLib to perform exploratory data analysis on ride sharing data from CSV files and to create graphs and charts to gain data driven insights.</p>
-                                <a class="btn btn-primary" href = "https://github.com/Kee2u/PyBer_Analysis" role = "button">View Code</a>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-
-                            <!--image here -->
                             <img src="assets/images/s1.png" class="img-fluid" alt="Responsive image">
                             <div class="carousel-caption d-none d-md-block">
                                 <h4>School District Analysis</h4>
@@ -188,24 +238,47 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-
+                        
                             <!--image here -->
-                            <img src="assets/images/stock.png" class="img-fluid" alt="Responsive image">
+                            <img src="assets/images/R.PNG" class="img-fluid" alt="Responsive image">
                             <div class="carousel-caption d-none d-md-block">
-                                <h4>Stock Analysis</h4>
-                                <p>Wrote VBA script to analyze stocks based on yearly returns and trading volume.</p>
-                                <a class="btn btn-primary" href = "https://github.com/Kee2u/Stock-Analysis" role = "button">View Code</a>
+                                <h4>Mechacar Statistical Analysis</h4>
+                                <p>Statistical Analysis of car manufacturing data using R. Tests include t-tests, ANOVA, and regression analysis.</p>
+                                <a class="btn btn-primary" href = "https://github.com/Kee2u/MechaCar_Statistical_Analysis" role = "button">View Code</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            
+                            <!--image here -->
+                            <img src="assets/images/Vine-header.jpg" class="img-fluid" alt="Responsive image">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4>Amazon Vine Analysis</h4>
+                                <p>Using Pyspark, AWS RDS and PGAdmin to analyze amazon reviews.</p>
+                                <a class="btn btn-primary" href = "https://github.com/Kee2u/Amazon_Vine_Analysis" role = "button">View Code</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <!--image here -->
+                            <img src="assets/images/network.png" class="img-fluid" alt="Responsive image">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4>Neural Network Charity Analysis</h4>
+                                <p>Creating neural networks with Scikit-Learn, Tensorflow and Keras to determine if organizations that received funding, used their resources effectively.</p>
+                                <a class="btn btn-primary" href = "https://github.com/Kee2u/Neural_Network_Charity_Analysis" role = "button">View Code</a>
                             </div>
                         </div>
                         <div class="carousel-item">
 
                             <!--image here -->
-                            <img src="assets/images/excel.png" class="img-fluid" alt="Responsive image">
+                            <img src="assets/images/ta.jpg" class="img-fluid" alt="Responsive image">
                             <div class="carousel-caption d-none d-md-block">
-                                <h4>Kickstarter Analysis</h4>
-                                <p>Excel analysis on kickstarter data to discover trends.</p>
-                                <a class="btn btn-primary" href = "https://github.com/Kee2u/Kickstarter-Analysis" role = "button">View Code</a>
+                                <h4>Credit Risk Analysis</h4>
+                                <p>Predicting credit risk using logisitic regression machine learning model.</p>
+                                <a class="btn btn-primary" href = "https://github.com/Kee2u/Credit_Risk_Analysis" role = "button">View Code</a>
                             </div>
+                        </div>
+                        <div class="carousel-item">
+
+                           
                         </div>
                     </div>
 
@@ -221,12 +294,15 @@
             <div class="container">
                 <div class="labels">
                     <div class="tech">Python</div>
-                    <div class="tech">C / C++</div>
+                    <div class="tech">R</div>
                     <div class="tech">SQL</div>
                     <div class="tech">JavaScript</div>
                     <div class="tech">HTML/CSS</div>
-                    <div class="tech">VBA</div>
-                    <div class="tech">Matlab</div>
+                    <div class="tech">Tableau</div>
+                    <div class="tech">Big Data</div>
+                    <div class="tech">Machine Learning</div>
+                    <div class="tech">MATLAB</div>
+                    <div class="tech">C / C++</div>
                 </div>
             </div>
 
@@ -276,6 +352,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script src="assets/js/vanta.js"></script>
+
 
 </body>
 
