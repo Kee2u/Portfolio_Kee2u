@@ -122,8 +122,7 @@
                         <li data-target="#portfolioCarousel" data-slide-to="10" class="custom-indicator"></li>
                         <li data-target="#portfolioCarousel" data-slide-to="11" class="custom-indicator"></li>
                         <li data-target="#portfolioCarousel" data-slide-to="12" class="custom-indicator"></li>
-                        <li data-target="#portfolioCarousel" data-slide-to="13" class="custom-indicator"></li>
-
+                        
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -239,15 +238,7 @@
                         </div>
                         <div class="carousel-item">
                             
-                            <!--image here -->
-                            <img src="assets/images/Vine-header.jpg" class="img-fluid" alt="Responsive image">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h4>Amazon Vine Analysis</h4>
-                                <p>Using Pyspark, AWS RDS and PGAdmin to analyze amazon reviews.</p>
-                                <a class="btn btn-primary" href = "https://github.com/Kee2u/Amazon_Vine_Analysis" role = "button">View Code</a>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
+
                             <!--image here -->
                             <img src="assets/images/network.png" class="img-fluid" alt="Responsive image">
                             <div class="carousel-caption d-none d-md-block">
