@@ -19,7 +19,7 @@
 
     <!-- Custom styles for this template -->
     <link href="assets/css/app.css" rel="stylesheet" />
-    <title>Keetu | Portfolio</title>
+    <title>Keerthana Jayakumar | Portfolio</title>
 </head>
 
 <body>
@@ -34,7 +34,7 @@
             <section class="fragment fragment-one">
                 <div class="headers">
                     <h1> keetu. </h1>
-                    <h3> data analyst | data engineer | software developer</h3>
+                    <h3> data scientist | data engineer | software developer</h3>
                 </div>
 
                 <div class="learn">
@@ -54,7 +54,7 @@
                         <div class="col-md-12">
 
                             <!-- Edit this text with a brief intoduction / brand statement etc. -->
-                            <h4>
+                            <h5>
                                 Keerthana (Keetu) is a Mechatronics Engineer and Data Analyst with strong math and statistics skills. 
                                 She has a background in Python, SQL, VBA, Javascript and Machine Learning from the University of Toronto's Data Analytics Bootcamp. 
                                 
@@ -205,16 +205,6 @@
                                 <h4>Movies ETL</h4>
                                 <p>Scraped movie data from Wikipedia, Kaggle and MovieLens. Created a data pipeline to clean the data using ETL and Pandas with Jupyter Notebooks. Uploaded the cleaned data to SQL tables for further analysis.</p>
                                 <a class="btn btn-primary" href = "https://github.com/Kee2u/Movies-ETL" role = "button">View Code</a>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-
-                            <!--image here -->
-                            <img src="assets/images/DB1.png" class="img-fluid" alt="Responsive image">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h4>Employee Database</h4>
-                                <p>Used PostgreSQL and PGAdmin4 to determine the impact of retiring employees on a fictional company.</p>
-                                <a class="btn btn-primary" href = "https://github.com/Kee2u/Pewlett-Hackard-Analysis" role = "button">View Code</a>
                             </div>
                         </div>
                         <div class="carousel-item">
